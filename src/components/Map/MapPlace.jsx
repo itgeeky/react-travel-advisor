@@ -8,7 +8,7 @@ import Rating from '@material-ui/lab/Rating';
 
 
 
-const MapPlace = ({ lat, lng, matches, photo, rating, name }) => {
+const MapPlace = ({ lat, lng, matches,rating, name }) => {
   const classes = useStyles();
   return (
     <div
@@ -27,13 +27,8 @@ const MapPlace = ({ lat, lng, matches, photo, rating, name }) => {
               gutterBottom
             >
               {" "}
-              {name.length > 30 ? name.substring(0, 3) : name}
+              {name.length > 20 ? name.substring(0, 20) : name}
             </Typography>
-            <img
-              className={classes.pointer}
-              alt="rest-header-img"
-              src={photo}
-            />
             <Rating
               name="read-only"
               size="small"

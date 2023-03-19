@@ -1,0 +1,22 @@
+.cluster-marker {
+  color: rgb(255, 255, 255);
+  background: #ad1a5a;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(173,26,90,0.5);
+}
+
+.well-marker {
+  color: rgb(255, 255, 255);
+  background: #19c822;
+  border-radius: 50%;
+  padding: 5px;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
