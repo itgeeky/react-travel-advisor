@@ -1,16 +1,37 @@
+
+
 # Travel Advisor App
+![Preview]<img width="1396" alt="Screenshot 2023-03-19 at 13 12 07" src="https://user-images.githubusercontent.com/90287359/226203287-81a13937-f7a3-4223-9a49-959cee86cf0e.png">
 
-Este proyecto fue creado en React, permite mediante la api de localización del navegador en conjunto con la api de travel advisor (google places) de Rapid Api mostrar lugares de interes cerca de ti. Se incluyen Hoteles, Restaurantes y Atracciones. 
- 
-Para el mapa se uso el paquete de npm de react-google-maps, también se incluye una barra de busqueda la cual nos permite buscar lugares cuaquier parte del mundo. 
+Este es un proyecto de React que utiliza la API de Google Maps para mostrar lugares de interés, tales como restaurantes, atracciones y hoteles, cerca de una ubicación determinada.
 
+## Características
 
-### `Uso`
+-   Muestra lugares de interés cercanos a una ubicación determinada.
+-   Permite filtrar los lugares por tipo (restaurantes, atracciones, hoteles).
+-   Permite filtrar los lugares por número de estrellas (rating).
+-   Utiliza la API de Google Maps para mostrar un mapa interactivo.
+-   Permite buscar una ubicación utilizando la API de Google Places.
 
-El proyecto es bastante simple, al iniciar pedira permisos para acceder a tu localización. Podemos ingresar una ubicación de manera manual si lo deseamos. La parte lateral izquierda muestra una tabla de resultados, en la cual podemos filtrar entre las distinats categorias y estrellas con las que cuenta en google places. 
+## Instalación
 
+1.  Clona este repositorio en tu máquina local.
+2.  Ejecuta `npm install` para instalar todas las dependencias.
+3.  Crea un archivo `.env` en el directorio raíz y agrega la siguiente variable de entorno:
+    
+    makefileCopy code
+    
+    `REACT_APP_GOOGLE_MAPS_API_KEY=<tu_clave_de_API_de_Google>` 
+    
+4.  Ejecuta `npm start` para iniciar la aplicación.
 
-Movernos por el mapa o cambiar el zoom actualizara la vista de porpiedades de la vista lateral. 
+## Uso
+
+Al abrir la aplicación, se te pedirá permiso para acceder a tu ubicación actual. Si lo permites, la aplicación mostrará lugares de interés cercanos a tu ubicación. Si no lo permites o la ubicación no está disponible, puedes utilizar el buscador para buscar una ubicación específica.
+
+Una vez que se muestran los lugares de interés, puedes filtrarlos por tipo y por número de estrellas utilizando los botones en la parte superior de la pantalla.
+
+Para ver más información sobre un lugar de interés, haz clic en su marcador en el mapa. 
 
 Demo: https://travel-advisor-geeky.netlify.app
 
