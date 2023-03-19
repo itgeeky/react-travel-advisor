@@ -15,6 +15,7 @@ const MapPlace = ({ lat, lng, matches,rating, name }) => {
       className={classes.markerContainer}
       lat={lat}
       lng={lng}
+      style={{cursor:'pointer'}}
     >
       {!matches ? (
         <LocationOnOutlinedIcon color="primary" fontSize="large" />
