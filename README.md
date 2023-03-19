@@ -1,7 +1,7 @@
 
 
 # Travel Advisor App
-![Preview]<img width="1396" alt="Screenshot 2023-03-19 at 13 12 07" src="https://user-images.githubusercontent.com/90287359/226203287-81a13937-f7a3-4223-9a49-959cee86cf0e.png">
+<img width="1396" alt="Screenshot 2023-03-19 at 13 12 07" src="https://user-images.githubusercontent.com/90287359/226203287-81a13937-f7a3-4223-9a49-959cee86cf0e.png">
 
 Este es un proyecto de React que utiliza la API de Google Maps para mostrar lugares de interés, tales como restaurantes, atracciones y hoteles, cerca de una ubicación determinada.
 
